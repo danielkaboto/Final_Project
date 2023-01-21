@@ -121,8 +121,8 @@ public class Car extends JFrame implements ActionListener
         }
         else if (e.getSource()== Open)
         {
-           Open p1 = new Open();
-           p1.setVisible(true);
+            Open p1 = new Open();
+            p1.setVisible(true);
         }
 
     }

@@ -79,7 +79,7 @@ public class Open extends JFrame implements ActionListener
                                 color = words[10];
 
                              } 
-                             
+
                         } 
                         catch (NumberFormatException f) 
                         {
@@ -92,7 +92,8 @@ public class Open extends JFrame implements ActionListener
                 }
                 scanner.close();
                 System.out.println("The fastest car is " + Brand+" "+ Gear+" "+Model+" "+maxSpeed+" "+Year+" "+color );
-           
+                Bt.setText(Brand); Gt.setText(Gear); Mt.setText(Model); Mxt.setText(Integer.toString(maxSpeed));
+                Yt.setText(Year);Ct.setText(color);
             }
              catch (IOException x) 
             {
