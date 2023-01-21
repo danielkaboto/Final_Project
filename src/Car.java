@@ -54,11 +54,8 @@ public class Car extends JFrame implements ActionListener
         Open = new JButton("Open the Search Form ");
 
         Add.setPreferredSize(new DimensionUIResource(400, 30));
-        
         Open.setPreferredSize(new DimensionUIResource(400, 30));
      
-
-
 
         //  add the element on the form
         add(title); 
@@ -121,6 +118,11 @@ public class Car extends JFrame implements ActionListener
                 System.out.println("An error Occurred .");
                 x.printStackTrace();
             }
+        }
+        else if (e.getSource()== Open)
+        {
+           Open p1 = new Open();
+           p1.setVisible(true);
         }
 
     }
